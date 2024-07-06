@@ -508,7 +508,7 @@ class FoodSearchProblem:
 
 # PREGUNTA 7: COMER TODOS LOS PUNTOS
 
-# EXPLICACIÓN DEL ALGORITMO:
+# EXPLICACIÓN DEL ALGORITMO IMPLEMENTADO:
 # - Función foodHeuristic():
 # Se declaran dos variables, una lista que almacena los puntos ya recogidos,
 # y otra lista para almacenar la distancia más corta "posición actual - punto".
@@ -568,7 +568,7 @@ def foodHeuristic(state: Tuple[Tuple, List[List]], problem: FoodSearchProblem):
 
 # PREGUNTA 8: BÚSQUEDA SUBÓPTIMA
 
-# EXPLICACIÓN DEL ALGORITMO:
+# EXPLICACIÓN DEL ALGORITMO IMPLEMENTADO:
 # - Función findPathToClosestDot():
 # Devuelve el resultado de la función astar aplicada al problema,
 # la cual le ayuda a encontrar el punto más cercano.

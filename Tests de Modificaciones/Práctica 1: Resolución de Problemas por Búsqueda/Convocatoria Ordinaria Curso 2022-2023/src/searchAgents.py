@@ -142,7 +142,7 @@ class SearchAgent(Agent):
 
 # PREGUNTA 2: MODIFICACIÓN DE FUNCIÓN DE COSTE
 
-# EXPLICACIÓN DEL ALGORITMO:
+# EXPLICACIÓN DEL ALGORITMO IMPLEMENTADO:
 # - Función modified_cost():
 # El coste de los movimientos que NO sean hacia el norte sea el doble respecto a
 # como es normalmente. Además, si se realiza un movimiento hacia el norte, éste será
@@ -553,7 +553,7 @@ class FoodSearchProblem:
 
 # PREGUNTA 7: COMER TODOS LOS PUNTOS
 
-# EXPLICACIÓN DEL ALGORITMO:
+# EXPLICACIÓN DEL ALGORITMO IMPLEMENTADO:
 # - Función foodHeuristic():
 # Se declaran dos variables, una lista que almacena los puntos ya recogidos,
 # y otra lista para almacenar la distancia más corta "posición actual - punto".
@@ -613,7 +613,7 @@ def foodHeuristic(state: Tuple[Tuple, List[List]], problem: FoodSearchProblem):
 
 # PREGUNTA 8: BÚSQUEDA SUBÓPTIMA
 
-# EXPLICACIÓN DEL ALGORITMO:
+# EXPLICACIÓN DEL ALGORITMO IMPLEMENTADO:
 # - Función findPathToClosestDot():
 # Devuelve el resultado de la función astar aplicada al problema,
 # la cual le ayuda a encontrar el punto más cercano.
@@ -716,7 +716,7 @@ def mazeDistance(point1: Tuple[int, int], point2: Tuple[int, int], gameState: pa
 
 # PREGUNTA 1: HEURÍSTICA DE DISTANCIA DE CHEBYSHOV PARA LA BÚSQUEDA A*
 
-# EXPLICACIÓN DEL ALGORITMO:
+# EXPLICACIÓN DEL ALGORITMO IMPLEMENTADO:
 # - Función chebyshovDistance():
 # Calcula la distancia de Chebyshov para la búsqueda A*, la cual viene
 # definida por la siguiente fórmula: Chebyshov Distance = max(|x2 - x1|, |y2 - y1|).
